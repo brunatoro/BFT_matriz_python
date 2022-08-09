@@ -4,7 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 #Tamaho da matriz
-width = 30
+width = 24
 height = 11
 
 image_matrix = np.zeros([height,width])
@@ -34,8 +34,13 @@ image_matrix[3,5]=200
 #Coluna do F
 image_matrix[:,8]=200
 #Linhas horizontais
-image_matrix[0,9:13]=200
-image_matrix[4,9:12]=200
+image_matrix[0,9:14]=200
+image_matrix[5,9:12]=200
+
+#Letra T
+#Linha horizontal do T
+image_matrix[0,16:23]=200
+image_matrix[:,19]=200
 
 print(image_matrix) #print da matriz
 #print gráfica da matriz
